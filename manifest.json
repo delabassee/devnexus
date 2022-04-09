@@ -1,0 +1,18 @@
+
+{
+    "tutorials": [
+        {
+            "title": "Introduction",
+            "filename": "intro.md"
+        },
+        {         
+            "title": "Step 1: Sign Up for your OCI Free Trial",
+            "description": "Login to Oracle Cloud",
+            "filename":"step/oci-signup.md"
+        },
+        {
+            "title": "Step 2: Setup your Oracle Cloud environment",
+            "filename": "step/oci-env-setup.md"
+        }
+    ]
+}
