@@ -11,7 +11,7 @@ In this 10-minutes lab, you will prepare your Oracle Cloud environment to do the
 In this step, you will create a **Virtual Cloud Network (VCN)**, i.e. a software-defined private network in the Oracle Cloud Infrastructure. See [here](https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Tasks/managingVCNs.htm) for more details on VCN.
 
 
-1. Log on the [OCI console](https://cloud.oracle.com/), select **Networking** in **Core Infrastructure** (top-left hamburger button), then **Virtual Cloud Networks**.
+1. Log on the [OCI console](https://cloud.oracle.com/), select **Networking** (top-left hamburger button), then **Virtual Cloud Networks**.
 
 ![](../images/lab2-1.png " ")
 
@@ -23,7 +23,7 @@ In this step, you will create a **Virtual Cloud Network (VCN)**, i.e. a software
 
 ![](../images/lab2-2.png " ")
 
-4. Select **VCN with Internet Connectivity** ➡ **Start VCN Wizard**.
+4. Select **Create VCN with Internet Connectivity** ➡ **Start VCN Wizard**.
 
 5. Give it a meaningful name, ex. "HOL_VCN", and keep other default values.
 
@@ -37,7 +37,7 @@ After a couple of seconds, your VCN will be created (including a public and a pr
 
 You still need to do one thing, i.e. configure a security rule to allow requests coming from the Internet to reach your Java application(s) running on OCI. For this, you will define an **Ingress Rule** on the VCN public subnet (not the private one!). to open port 8080.
 
-1. From the top left hamburger menu, select **Core Infrastructure** ➡ **Networking** ➡ **Virtual Cloud Networks**, and click on your newly created VCN to see its details.
+1. From the top left hamburger menu, select **Networking**  ➡ **Virtual Cloud Networks**, and click on your newly created VCN to see its details.
 
 ![](../images/lab2-5.png " ")
 
@@ -64,9 +64,9 @@ Compute Instances can be physical (bare metal) or virtual, and come in different
 
 For this lab, you will configure a **VM** based instance using the **Oracle Linux 8** image.
 
-From the top-left hamburger menu, select **Core Infrastructure** ➡ **Compute** ➡ **Instances**, and then click on **Create Instance**.
+From the top-left hamburger menu, select **Compute** ➡ **Instances**, and then click on **Create Instance**.
 
-💡 If you don't see **Create Instance** button, make sure that your **root** compartment is selected. Top-left hamburger menu, select **Core Infrastructure** ➡ **Compute** ➡ **Instances**, and check **List Scope** - **COMPARTMENT** in the left sidebar.
+💡 If you don't see **Create Instance** button, make sure that your **root** compartment is selected. Top-left hamburger menu, select **Compute** ➡ **Instances**, and check **List Scope** - **Compartment** in the left sidebar.
 
 **1. Configure the instance (shape and OS) to create.**
 
@@ -128,9 +128,9 @@ The final command should look like this:
 
  `chmod 400 ~/Downloads/ssh-key-2021-xxx.key`
 
-You will get a message saying _"The authenticity of host '158.xxx.xxx.xxx' can't be established…"_, you can ignore it by typing **yes**. You are now connected to your OCI instance!
+💡 While logging, you might get some warning message(s). You can ignore those for now as they'll be handled later.
 
-💡 You can also ignore the _"LC-CTYPE: cannot change locale…"_ warning, it will be fixed shortly
+Congratulations, you are now connected to your OCI instance!
 
 
 

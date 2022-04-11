@@ -29,7 +29,7 @@ In this section, you will sign-up for a free tier OCI account. Fill out the regi
 
     ![](../images/lab1-signup-for-freetier-2021.png)
 
-3.  If your email wasn't recognized or you're using a different email address, you will need to provide additional information. Please ask for assistance!
+3.  If your email wasn't recognized, please ask for assistance!
 
 4. Enter details for your new Oracle Cloud account.
     * You can choose almost anything for your **Cloud Account Name**. Make sure to write it down as you'll need it later to sign in.
@@ -44,9 +44,14 @@ In this section, you will sign-up for a free tier OCI account. Fill out the regi
 
     ![](../images/lab1-signup-region2-2021.png)
 
-6. Click **Review Terms and Conditions**. Read and agree to the Terms & Conditions by checking the box and click **Complete Sign-Up**.
+6. Read and agree to the Terms & Conditions by checking the box and click **Continue**.
 
-7. Your account is provisioning and should be available in a few seconds! When it's ready, you're automatically taken to a sign in page. You'll also receive a confirmation email containing sign in information.
+7. Fill in your details, click the checkbox.
+
+    ![](../images/lab1-signup-details-2022.png)
+
+
+8. Your account is being provisioned and should be available within a minute. When it's ready, you're automatically taken to a sign in page. You'll also receive a confirmation email containing sign in information.
 
 ##Sign in to Your Account
 
