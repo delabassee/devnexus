@@ -143,8 +143,9 @@ In your instance, run the following command:
 
 ```nohighlight
 <copy>
-source <(curl -L https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/3e6e499147e33867d4ce3544798ebc9a73b7d88b/vm-setup.sh)
+source <(curl -L https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/2ebc27787b6f327aa412a9a0b1e642ab5a02a316/vm-setup.sh)
 </copy>
+
 ```
 
 The script should take around 100~120 seconds. In the meantime, you can check what the script is doing by typing the Gist URL (ex. https://gist.githubusercontent.com/delabassee/…) in a browser. In a nutshell, the script: 
@@ -157,7 +158,7 @@ The script should take around 100~120 seconds. In the meantime, you can check wh
 
 Once the script has been executed, you can test your instance by issuing, for example, `java -version`.
 
-💡 To use the Simple Web Server introduced in JDK 18, simply type the following command: `jwebserver -b 0.0.0.0 -p 8080`<br>This command instructs the Simple Web Server to serve files from the current directory, on all interfaces, on port 8080. From your browser, try to browse `http:{your-public-ip}:8080`. You should see the content of your files system. The Simple Web Server will be discussed in more detail later in this workshop.
+💡 To use the Simple Web Server introduced in JDK 18, simply type the following command: `jwebserver -b 0.0.0.0 -p 8080`<br>This command instructs the Simple Web Server to serve files from the current directory, on all interfaces, on port 8080. From your browser, try to browse `http:{your-public-ip}:8080`. The Simple Web Server will be discussed in more detail later in this workshop.
 
 Congratulations, everything is now correctly set-up! You can now proceed. The Amber guide is located to [https://github.com/JosePaumard/2022_DevNexus-lab](https://github.com/JosePaumard/2022_DevNexus-lab).
 
