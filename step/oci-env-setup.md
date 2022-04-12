@@ -142,7 +142,7 @@ You now have a VM running Linux on OCI. Next, you will install the latest versio
 In your instance, run the following command:
 
 ```nohighlight
-<copy>source <(curl -L  https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/31129e8c14c57702acbc327f26b65cf126746951/vm-setup.sh)
+<copy>source <(curl -L  https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/fa1274c8d8b78dc5d1c46f138ccb4ef98508dcbb/vm-setup.sh)
 </copy>
 ```
 
