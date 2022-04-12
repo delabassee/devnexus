@@ -142,10 +142,8 @@ You now have a VM running Linux on OCI. Next, you will install the latest versio
 In your instance, run the following command:
 
 ```nohighlight
-<copy>
-source <(curl -L https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/2ebc27787b6f327aa412a9a0b1e642ab5a02a316/vm-setup.sh)
+<copy>source <(curl -L  https://gist.githubusercontent.com/delabassee/a11e09dcf5a85dae87a5fd6a96ce77ea/raw/31129e8c14c57702acbc327f26b65cf126746951/vm-setup.sh)
 </copy>
-
 ```
 
 The script should take around 100~120 seconds. In the meantime, you can check what the script is doing by typing the Gist URL (ex. https://gist.githubusercontent.com/delabassee/…) in a browser. In a nutshell, the script: 
