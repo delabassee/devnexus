@@ -157,7 +157,7 @@ The script should take around 100~120 seconds. In the meantime, you can check wh
 
 Once the script has been executed, you can test your instance by issuing, for example, `java -version`.
 
-💡 To use the Simple Web Server introduced in JDK 18, simply type the `jwebserver -b 0.0.0.0 -p 8080` command. This will instruct the Simple Web Server to serve static files on all interfaces on port 8080. From your browser, try to browse `http:{your-public-ip}:8080`. You should see the content of your files system. The Simple Web Server will be discussed in more detail later in this workshop.
+💡 To use the Simple Web Server introduced in JDK 18, simply type the following command: `jwebserver -b 0.0.0.0 -p 8080`<br>This command instructs the Simple Web Server to serve files from the current directory, on all interfaces, on port 8080. From your browser, try to browse `http:{your-public-ip}:8080`. You should see the content of your files system. The Simple Web Server will be discussed in more detail later in this workshop.
 
-Congratulations, everything is now correctly set-up! You can now proceed…
+Congratulations, everything is now correctly set-up! You can now proceed. The Amber guide is located to [https://github.com/JosePaumard/2022_DevNexus-lab](https://github.com/JosePaumard/2022_DevNexus-lab).
 
